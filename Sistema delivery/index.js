@@ -10,6 +10,9 @@ const restaurantRoutes = require('./routes/restaurantRoutes');
 app.use('/restaurants', restaurantRoutes);
 
 
+const pedidosRoute = require('./routes/Pedidos')
+app.use('/Pedidos', pedidosRoute);
+
 
 // TODO: Clientes - Importar e mapear
 const clientesRoutes = require('./routes/cliente');
